@@ -5,7 +5,7 @@
     <!-- Content projected here should include additional form elements or custom components -->
     <ng-content></ng-content>
     <div class="btn-wrapper">
-      <button class="btn-primary">
+      <button class="btn-primary" (click)="submit()">
         {{ primaryBtnText }}
       </button>
       <div class="divider">
